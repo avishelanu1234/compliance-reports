@@ -1,9 +1,15 @@
 # NovaPay encryption configuration — PCI-DSS Requirement 3.4
 cardholder_data:
   storage: prohibited
-  transit_encryption: TLS_1_2_minimum
+  transit_encryption: TLS_1_3_minimum # Updated to the latest standard
   key_management: AWS_KMS
+
+# Updated audit logging to reflect best practices
+
+# Audit Logging Configuration
+# Ensuring logs are retained for longer periods and are tamper-evident
+
 audit_logging:
   enabled: true
-  retention_days: 365
+  retention_days: 730 # Increased retention for compliance
   tamper_evident: true
