@@ -32,3 +32,5 @@
 - [ ] Establish an annual review process for the compliance checklist.
 - [ ] Assign a responsible team to review and update the checklist.
 - [ ] Incorporate feedback from audits and employee training sessions into the review process.
+- [ ] Ensure that the checklist is accessible to all employees for transparency and awareness.
+- [ ] Update the checklist based on changes in regulations, policies, or organizational needs.
