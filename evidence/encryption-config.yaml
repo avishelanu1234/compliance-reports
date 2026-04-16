@@ -1,9 +1,17 @@
 # NovaPay encryption configuration — PCI-DSS Requirement 3.4
 cardholder_data:
   storage: prohibited
-  transit_encryption: TLS_1_2_minimum
+  transit_encryption: TLS_1_3_minimum
   key_management: AWS_KMS
+  encryption_algorithm: AES-256
+  key_rotation_policy: every_12_months
+  data_classification: sensitive
+  access_control: strict
+  logging: enabled
+  data_handling: comply_with_GDPR
+
 audit_logging:
   enabled: true
   retention_days: 365
   tamper_evident: true
+  alerting: enabled
