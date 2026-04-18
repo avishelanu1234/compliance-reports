@@ -34,3 +34,7 @@
 - [ ] Incorporate feedback from audits and employee training sessions into the review process.
 - [ ] Ensure that the checklist is accessible to all employees for transparency and awareness.
 - [ ] Update the checklist based on changes in regulations, policies, or organizational needs.
+
+## Security Scanner Findings
+- [ ] No hardcoded passwords were found in the security-scanners repository.
+- [ ] Limitation: GitHub Advanced Security is not enabled, which may affect the comprehensiveness of the findings.
