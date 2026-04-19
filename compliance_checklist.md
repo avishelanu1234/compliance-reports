@@ -40,3 +40,5 @@
 ## Security Scanner Findings
 - [ ] No hardcoded passwords were found in the security-scanners repository.
 - [ ] Limitation: GitHub Advanced Security is not enabled, which may affect the comprehensiveness of the findings and increase potential risks. It is recommended to enable GitHub Advanced Security to enhance scanning capabilities.
+- [ ] Ensure regular updates and patches are applied to all systems to mitigate vulnerabilities.
+- [ ] Conduct periodic reviews of security policies to ensure they align with best practices and compliance requirements.
