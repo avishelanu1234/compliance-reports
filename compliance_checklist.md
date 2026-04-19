@@ -52,4 +52,5 @@
   - Missing Dependency Documentation
   - Inadequate Authentication
   - Lack of Authentication Flow Descriptions
-
+  - **Architectural Security Issues**: Address the architectural security issues identified across recent audits, including Inadequate Authentication, Insufficient Logging and Monitoring, and Data Leakage.
+  - **Hardcoded Passwords**: Ensure guidelines are established to prevent hardcoded passwords in the codebase.
