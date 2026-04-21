@@ -28,6 +28,13 @@
 - [ ] Manage false positives by configuring sensitivity levels and implementing whitelists for known false positives.
 - [ ] When vulnerabilities or secrets are detected, review the findings, prioritize remediation, and securely rotate any exposed secrets.
 
+## SQL Injection Remediation Steps
+- [ ] Implement Prepared Statements: Use parameterized queries to ensure safe handling of user inputs in SQL queries.
+- [ ] Input Validation: Enforce stringent validation rules on user inputs to reject malicious patterns.
+- [ ] Web Application Firewall (WAF): Deploy a WAF to detect and block SQL injection attempts.
+- [ ] Regular Security Audits: Conduct regular assessments focused on SQL injection vulnerabilities.
+- [ ] Update Training Materials: Provide training on secure coding practices related to SQL handling.
+
 ## AWS Compliance Actions
 - [ ] Review IAM Policies - Ensure that IAM policies follow the principle of least privilege.
 - [ ] Enable CloudTrail - CloudTrail should be enabled for all regions to capture API calls.
