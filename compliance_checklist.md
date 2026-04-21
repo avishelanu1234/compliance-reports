@@ -17,9 +17,10 @@
 - [ ] Implement regular audits of data protection measures to ensure effectiveness and compliance.
 
 ## Regulatory Compliance
-- [ ] Identify applicable regulations.
+- [ ] Identify applicable regulations (GDPR, HIPAA, PCI-DSS, etc.).
 - [ ] Maintain documentation of compliance efforts.
-- [ ] Conduct audits to verify compliance.
+- [ ] Conduct audits to verify compliance, focusing on regulatory updates.
+- [ ] Track changes in regulations and update policies accordingly.
 
 ## Incident Management
 - [ ] Establish an incident response plan.
@@ -39,7 +40,7 @@
 
 ## Security Scanner Findings
 - [ ] No hardcoded passwords were found in the security-scanners repository.
-- [ ] **Enable GitHub Advanced Security**: It is recommended to enhance scanning capabilities.
+- [ ] **Enable GitHub Advanced Security**: Recommended to enhance scanning capabilities.
 - [ ] Ensure regular updates and patches are applied to all systems to mitigate vulnerabilities.
 - [ ] Conduct periodic reviews of security policies to ensure they align with best practices and compliance requirements.
 
