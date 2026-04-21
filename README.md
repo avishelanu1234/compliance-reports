@@ -9,3 +9,11 @@ Enabling GitHub Advanced Security provides numerous advantages that enhance the 
 - **Better Collaboration**: Facilitates collaboration among teams by integrating security into the DevOps pipeline, fostering a culture of security awareness.
 
 By enabling GitHub Advanced Security, organizations can significantly enhance their security practices and ensure compliance with industry standards.
+
+## Compliance Checklist
+For a comprehensive list of compliance procedures, please refer to our [Compliance Checklist](compliance_checklist.md).
+
+## Compliance Standards
+- [PCI-DSS](https://www.pcisecuritystandards.org/pci_security/)
+- [GDPR](https://gdpr-info.eu/)
+- [HIPAA](https://www.hhs.gov/hipaa/for-professionals/index.html)
