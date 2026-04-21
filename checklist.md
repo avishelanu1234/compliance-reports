@@ -8,3 +8,4 @@
 6. **Lack of Authentication Flow Descriptions**: Document the authentication flow for clarity during audits.
 7. **Architectural Security Issues**: Address architectural concerns, ensuring all components adhere to security standards.
 8. **Hardcoded Passwords**: Identify and remediate hardcoded passwords. Establish guidelines to prevent future occurrences.
+9. **Compliance Gaps**: Track all identified compliance gaps to ensure they are addressed in a timely manner and that all regulatory requirements are met.
