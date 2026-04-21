@@ -15,3 +15,15 @@
 ## Incident Response
 - [ ] Ensure incident response plan is in place and updated.
 - [ ] Conduct regular incident response drills.
+
+## Application Security
+- [ ] Ensure that all applications are regularly scanned for vulnerabilities.
+- [ ] Implement Static Application Security Testing (SAST) tools to analyze source code for vulnerabilities.
+- [ ] Use dependency scanning tools to identify outdated or vulnerable dependencies.
+- [ ] Conduct secrets detection to identify hardcoded secrets (e.g., API keys, passwords) in your codebase.
+- [ ] Validate and sanitize user inputs to prevent injection attacks.
+- [ ] Implement comprehensive error handling to manage exceptions without exposing sensitive information.
+- [ ] Regularly update dependencies to their latest secure versions to mitigate vulnerabilities.
+- [ ] Integrate security scanners into your CI/CD pipeline for continuous security monitoring.
+- [ ] Manage false positives by configuring sensitivity levels and implementing whitelists for known false positives.
+- [ ] When vulnerabilities or secrets are detected, review the findings, prioritize remediation, and securely rotate any exposed secrets.
