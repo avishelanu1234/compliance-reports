@@ -41,16 +41,21 @@ The application constructs SQL queries using concatenated user inputs without pr
 2. **Input Validation:** Enforce stringent validation rules on user inputs to reject malicious patterns.
 3. **Web Application Firewall (WAF):** Deploy a WAF to detect and block SQL injection attempts.
 4. **Regular Security Audits:** Conduct regular assessments focused on SQL injection vulnerabilities.
+5. **Update Training Materials:** Provide training on secure coding practices related to SQL handling.
 
 ### Assigned Responsibilities
 - **Prepared Statements Implementation:** John Doe
 - **Input Validation Enforcement:** Jane Smith
 - **WAF Deployment:** Alice Johnson
 - **Security Audits:** Bob Brown
+- **Training on Secure Coding:** Sarah Connor
 
 ### Follow-up Review Schedule
 - **Initial Review:** May 5, 2026
 - **Final Verification:** June 5, 2026
+
+## Recent Security Events
+- **Inclusion of Recent Findings:** Incorporate recent security findings related to SQL injection vulnerabilities and other critical issues.
 
 ## Review Frequency and Contact Details
 - Review these playbooks quarterly and update as necessary.
