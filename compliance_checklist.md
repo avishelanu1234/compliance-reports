@@ -44,3 +44,38 @@
 - [ ] **Hardcoded Passwords**: Ensure that sensitive credentials are loaded from environment variables and never hardcoded in the source code.
 - [ ] **Sensitive Data Management**: Implement robust practices for handling sensitive data and ensure it is not logged or exposed inadvertently.
 - [ ] **Data Handling Procedures for PII**: Define and document clear data handling procedures to protect Personally Identifiable Information (PII).
+
+## Missing Regulatory Requirements
+
+### General Data Protection Regulation (GDPR)
+- [ ] Ensure data processing agreements are in place with third-party vendors.
+- [ ] Conduct Data Protection Impact Assessments (DPIAs) for high-risk processing activities.
+- [ ] Implement a process for handling data subject requests (access, rectification, erasure).
+
+### Health Insurance Portability and Accountability Act (HIPAA)
+- [ ] Ensure employee training on HIPAA compliance is conducted regularly.
+- [ ] Implement physical and technical safeguards for electronic protected health information (ePHI).
+- [ ] Conduct regular risk assessments specific to ePHI.
+
+### Payment Card Industry Data Security Standard (PCI DSS)
+- [ ] Ensure secure storage and transmission of cardholder data.
+- [ ] Regularly test security systems and processes.
+- [ ] Implement and maintain a firewall configuration to protect cardholder data.
+
+### Federal Risk and Authorization Management Program (FedRAMP)
+- [ ] Ensure that cloud services comply with FedRAMP requirements for federal systems.
+- [ ] Maintain a continuous monitoring plan for security controls.
+
+### ISO/IEC 27001
+- [ ] Conduct regular internal audits of the Information Security Management System (ISMS).
+- [ ] Implement a risk assessment and treatment plan.
+- [ ] Ensure documentation of information security policies and procedures.
+
+### California Consumer Privacy Act (CCPA)
+- [ ] Provide notice to consumers about data collection practices.
+- [ ] Establish a process for consumers to opt-out of the sale of their personal information.
+- [ ] Ensure transparency in data processing activities.
+
+### NIST Cybersecurity Framework
+- [ ] Implement a risk management framework that includes identifying, protecting, detecting, responding, and recovering from incidents.
+- [ ] Regularly update and review security policies based on threat intelligence.
