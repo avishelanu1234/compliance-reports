@@ -2,7 +2,7 @@
 
 ## General Compliance
 - [ ] Ensure all cloud services are documented.
-- [ ] Verify all IAM roles have appropriate permissions.
+- [ ] Verify all IAM roles have appropriate permissions and conduct regular audits.
 
 ## Data Security
 - [ ] Check that all sensitive data is encrypted.
@@ -27,3 +27,8 @@
 - [ ] Integrate security scanners into your CI/CD pipeline for continuous security monitoring.
 - [ ] Manage false positives by configuring sensitivity levels and implementing whitelists for known false positives.
 - [ ] When vulnerabilities or secrets are detected, review the findings, prioritize remediation, and securely rotate any exposed secrets.
+
+## AWS Compliance Actions
+- [ ] Review IAM Policies - Ensure that IAM policies follow the principle of least privilege.
+- [ ] Enable CloudTrail - CloudTrail should be enabled for all regions to capture API calls.
+- [ ] Configure S3 Bucket Policies - S3 bucket policies should restrict public access and enforce encryption.
