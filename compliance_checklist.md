@@ -39,3 +39,8 @@
 - [ ] Review IAM Policies - Ensure that IAM policies follow the principle of least privilege.
 - [ ] Enable CloudTrail - CloudTrail should be enabled for all regions to capture API calls.
 - [ ] Configure S3 Bucket Policies - S3 bucket policies should restrict public access and enforce encryption.
+
+## Compliance Gap Updates
+- [ ] **Hardcoded Passwords**: Ensure that sensitive credentials are loaded from environment variables and never hardcoded in the source code.
+- [ ] **Sensitive Data Management**: Implement robust practices for handling sensitive data and ensure it is not logged or exposed inadvertently.
+- [ ] **Data Handling Procedures for PII**: Define and document clear data handling procedures to protect Personally Identifiable Information (PII).
