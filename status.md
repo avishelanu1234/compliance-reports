@@ -31,3 +31,47 @@ Since the last review, the following compliance actions have been completed:
    - **Status:** Enabled in all regions.
 3. **Configure S3 Bucket Policies:** S3 bucket policies should restrict public access and enforce encryption.
    - **Status:** Policies updated to restrict public access.
+
+## Summary of Compliance Actions for Quarterly Review
+1. **Quarterly Review Status Update**:
+   - **Action Completed**: Review IAM Policies to ensure they follow the principle of least privilege.
+   - **Action Completed**: Enable CloudTrail for all regions to capture API calls.
+   - **Action Completed**: Configure S3 bucket policies to restrict public access and enforce encryption.
+
+2. **Compliance Gaps for PCI-DSS**:
+   - **Action Required**: Develop and document specific procedures for monitoring access to cardholder data.
+   - **Action Required**: Define responsibilities and establish frequency for conducting security tests.
+   - **Action Required**: Implement encryption for cardholder data during both transmission and storage.
+   - **Action Required**: Enhance the incident response plan with specific steps for addressing breaches involving cardholder data.
+
+3. **Data Leakage Compliance Gap**:
+   - **Action Required**: Review and modify areas where data leakage occurs.
+   - **Action Required**: Establish data handling policies and procedures.
+   - **Action Required**: Conduct training for staff on data protection.
+
+4. **PCI DSS Compliance Gaps**:
+   - **Action Required**: Implement strong encryption and security measures for storing and transmitting cardholder data.
+   - **Action Required**: Schedule regular testing of security systems and processes.
+   - **Action Required**: Review and update firewall configurations regularly.
+
+5. **Input Sanitization Compliance Gap**:
+   - **Action Required**: Implement input validation and sanitization for all user inputs.
+
+6. **Inadequate Authentication Compliance Gap**:
+   - **Action Required**: Implement multi-factor authentication across all systems.
+   - **Action Required**: Review current authentication methods for weaknesses.
+   - **Action Required**: Provide training for users on secure authentication practices.
+
+7. **Compliance Gap: Lack of Sensitive Information Management Practices**:
+   - **Action Required**: Conduct a thorough review of the codebase to ensure adherence to best practices for sensitive information handling.
+   - **Action Required**: Use environment variables for sensitive information.
+   - **Action Required**: Ensure configuration files are not included in version control.
+   - **Action Required**: Utilize secret management tools for handling secrets securely.
+
+8. **Address Hardcoded Passwords in Compliance Reports**:
+   - **Action Required**: Ensure all sensitive credentials are loaded from environment variables and never hardcoded in the source code.
+   - **Action Required**: Implement a secure secret management process for handling sensitive information.
+   - **Action Required**: Conduct a review of existing code to identify and replace hardcoded credentials.
+
+### Conclusion
+The above actions reflect the current compliance status and necessary steps for remediation as part of the quarterly review. Progress has been made in various areas, especially regarding AWS compliance actions, while several issues still require attention to ensure full compliance with PCI-DSS, GDPR, and other relevant regulations.
