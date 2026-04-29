@@ -9,6 +9,8 @@
 - [ ] Check that all sensitive data is encrypted.
 - [ ] Ensure backups are regularly performed.
 - [ ] **Implement breach notification procedures** to address potential data breaches in compliance with GDPR and HIPAA.
+- [ ] **Ensure that sensitive credentials are loaded from environment variables and never hardcoded in the source code.**
+- [ ] **Implement robust practices for handling sensitive data and ensure it is not logged or exposed inadvertently.**
 
 ## Monitoring and Logging
 - [ ] Confirm that cloud services have logging enabled.
