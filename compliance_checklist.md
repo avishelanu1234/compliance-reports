@@ -3,24 +3,24 @@
 ## General Compliance
 - [ ] Ensure all cloud services are documented.
 - [ ] Verify all IAM roles have appropriate permissions and conduct regular audits.
-- [ ] **Conduct regular training** for staff on compliance requirements and updates.
+- [ ] Conduct regular training for staff on compliance requirements and updates.
 
 ## Data Security
 - [ ] Check that all sensitive data is encrypted.
 - [ ] Ensure backups are regularly performed.
-- [ ] **Implement breach notification procedures** to address potential data breaches in compliance with GDPR and HIPAA.
-- [ ] **Ensure that sensitive credentials are loaded from environment variables and never hardcoded in the source code.**
-- [ ] **Implement robust practices for handling sensitive data and ensure it is not logged or exposed inadvertently.**
+- [ ] Implement breach notification procedures to address potential data breaches in compliance with GDPR and HIPAA.
+- [ ] Ensure that sensitive credentials are loaded from environment variables and never hardcoded in the source code.
+- [ ] Implement robust practices for handling sensitive data and ensure it is not logged or exposed inadvertently.
 
 ## Monitoring and Logging
 - [ ] Confirm that cloud services have logging enabled.
 - [ ] Review logs regularly for unauthorized access attempts.
-- [ ] **Document monitoring access** to sensitive data, including cardholder data (PCI DSS).
+- [ ] Document monitoring access to sensitive data, including cardholder data (PCI DSS).
 
 ## Incident Response
 - [ ] Ensure incident response plan is in place and updated.
 - [ ] Conduct regular incident response drills.
-- [ ] **Include corrective action plans** for non-conformities identified during audits (ISO/IEC 27001).
+- [ ] Include corrective action plans for non-conformities identified during audits (ISO/IEC 27001).
 
 ## Application Security
 - [ ] Ensure that all applications are regularly scanned for vulnerabilities.
@@ -45,13 +45,13 @@
 - [ ] Review IAM Policies - Ensure that IAM policies follow the principle of least privilege.
 - [ ] Enable CloudTrail - CloudTrail should be enabled for all regions to capture API calls.
 - [ ] Configure S3 Bucket Policies - S3 bucket policies should restrict public access and enforce encryption.
-- [ ] **Maintain an updated System Security Plan (SSP)** for all cloud services under FedRAMP.
+- [ ] Maintain an updated System Security Plan (SSP) for all cloud services under FedRAMP.
 
 ## Compliance Gap Updates
-- [ ] **Hardcoded Passwords**: Ensure that sensitive credentials are loaded from environment variables and never hardcoded in the source code.
-- [ ] **Sensitive Data Management**: Implement robust practices for handling sensitive data and ensure it is not logged or exposed inadvertently.
-- [ ] **Data Handling Procedures for PII**: Define and document clear data handling procedures to protect Personally Identifiable Information (PII).
-- [ ] **Add a section on breach procedures** to ensure compliance with GDPR and HIPAA.
+- [ ] Hardcoded Passwords: Ensure that sensitive credentials are loaded from environment variables and never hardcoded in the source code.
+- [ ] Sensitive Data Management: Implement robust practices for handling sensitive data and ensure it is not logged or exposed inadvertently.
+- [ ] Data Handling Procedures for PII: Define and document clear data handling procedures to protect Personally Identifiable Information (PII).
+- [ ] Add a section on breach procedures to ensure compliance with GDPR and HIPAA.
 
 ## Missing Regulatory Requirements
 
@@ -59,36 +59,36 @@
 - [ ] Ensure data processing agreements are in place with third-party vendors.
 - [ ] Conduct Data Protection Impact Assessments (DPIAs) for high-risk processing activities.
 - [ ] Implement a process for handling data subject requests (access, rectification, erasure).
-- [ ] **Ensure regular training for staff on GDPR compliance.**
+- [ ] Ensure regular training for staff on GDPR compliance.
 
 ### Health Insurance Portability and Accountability Act (HIPAA)
 - [ ] Ensure employee training on HIPAA compliance is conducted regularly.
 - [ ] Implement physical and technical safeguards for electronic protected health information (ePHI).
 - [ ] Conduct regular risk assessments specific to ePHI.
-- [ ] **Include breach notification procedures** as required by HIPAA.
+- [ ] Include breach notification procedures as required by HIPAA.
 
 ### Payment Card Industry Data Security Standard (PCI DSS)
 - [ ] Ensure secure storage and transmission of cardholder data.
 - [ ] Regularly test security systems and processes.
 - [ ] Implement and maintain a firewall configuration to protect cardholder data.
-- [ ] **Document access monitoring** to cardholder data and maintain logs.
+- [ ] Document access monitoring to cardholder data and maintain logs.
 
 ### Federal Risk and Authorization Management Program (FedRAMP)
 - [ ] Ensure that cloud services comply with FedRAMP requirements for federal systems.
 - [ ] Maintain a continuous monitoring plan for security controls.
-- [ ] **Ensure all SSPs are up-to-date** with relevant controls.
+- [ ] Ensure all SSPs are up-to-date with relevant controls.
 
 ### ISO/IEC 27001
 - [ ] Conduct regular internal audits of the Information Security Management System (ISMS).
 - [ ] Implement a risk assessment and treatment plan.
 - [ ] Ensure documentation of information security policies and procedures.
-- [ ] **Document corrective action plans** for audit non-conformities.
+- [ ] Document corrective action plans for audit non-conformities.
 
 ### California Consumer Privacy Act (CCPA)
 - [ ] Provide notice to consumers about data collection practices.
 - [ ] Establish a process for consumers to opt-out of the sale of their personal information.
 - [ ] Ensure transparency in data processing activities.
-- [ ] **Include mechanisms for consumers to access and request deletion of their data.**
+- [ ] Include mechanisms for consumers to access and request deletion of their data.
 
 ### NIST Cybersecurity Framework
 - [ ] Implement a risk management framework that includes identifying, protecting, detecting, responding, and recovering from incidents.
