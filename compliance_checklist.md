@@ -6,9 +6,9 @@
 - [ ] Conduct regular training for staff on compliance requirements and updates.
 
 ## Data Security
-- [ ] Check that all sensitive data is encrypted.
+- [ ] Check that all sensitive data is encrypted following the latest NIST guidelines.
 - [ ] Ensure backups are regularly performed.
-- [ ] Implement breach notification procedures to address potential data breaches in compliance with GDPR and HIPAA.
+- [ ] Implement breach notification procedures to address potential data breaches in compliance with the latest GDPR and HIPAA regulations.
 - [ ] Ensure that sensitive credentials are loaded from environment variables and never hardcoded in the source code.
 - [ ] Implement robust practices for handling sensitive data and ensure it is not logged or exposed inadvertently.
 
@@ -33,6 +33,8 @@
 - [ ] Integrate security scanners into your CI/CD pipeline for continuous security monitoring.
 - [ ] Manage false positives by configuring sensitivity levels and implementing whitelists for known false positives.
 - [ ] When vulnerabilities or secrets are detected, review the findings, prioritize remediation, and securely rotate any exposed secrets.
+- [ ] Include guidance on container security and secure coding practices in cloud-native environments.
+- [ ] Emphasize regular secrets rotation and use of hardware security modules (HSMs) where applicable.
 
 ## SQL Injection Remediation Steps
 - [ ] Implement Prepared Statements: Use parameterized queries to ensure safe handling of user inputs in SQL queries.
@@ -43,15 +45,18 @@
 
 ## AWS Compliance Actions
 - [ ] Review IAM Policies - Ensure that IAM policies follow the principle of least privilege.
-- [ ] Enable CloudTrail - CloudTrail should be enabled for all regions to capture API calls.
+- [ ] Enable CloudTrail - CloudTrail should be enabled for all regions to capture API calls, including multi-region trails and integration with AWS Security Hub.
 - [ ] Configure S3 Bucket Policies - S3 bucket policies should restrict public access and enforce encryption.
 - [ ] Maintain an updated System Security Plan (SSP) for all cloud services under FedRAMP.
+- [ ] Add AWS Config rules and automated remediation practices.
 
 ## Compliance Gap Updates
 - [ ] Hardcoded Passwords: Ensure that sensitive credentials are loaded from environment variables and never hardcoded in the source code.
 - [ ] Sensitive Data Management: Implement robust practices for handling sensitive data and ensure it is not logged or exposed inadvertently.
 - [ ] Data Handling Procedures for PII: Define and document clear data handling procedures to protect Personally Identifiable Information (PII).
 - [ ] Add a section on breach procedures to ensure compliance with GDPR and HIPAA.
+- [ ] Expand on hardcoded credentials management with references to secrets management tools like HashiCorp Vault or AWS Secrets Manager.
+- [ ] Add updates related to zero trust architecture adoption and identity management improvements.
 
 ## Inadequate Authentication Mechanisms - High Compliance Gap Action Plan
 - [ ] Enforce Strong Password Policies: Implement and enforce password complexity and expiration policies across all systems.
@@ -59,6 +64,8 @@
 - [ ] IAM Role Audits: Regularly audit IAM roles to ensure appropriate permissions and remove any excessive privileges.
 - [ ] Training and Awareness: Conduct training sessions to educate users on secure authentication practices and the importance of MFA.
 - [ ] Continuous Monitoring: Implement monitoring and alerting for suspicious authentication activities and failed login attempts.
+- [ ] Include recommendations for passwordless authentication methods and biometric factors.
+- [ ] Add details on continuous authentication and risk-based access controls.
 
 ## Missing Regulatory Requirements
 
@@ -90,6 +97,7 @@
 - [ ] Implement a risk assessment and treatment plan.
 - [ ] Ensure documentation of information security policies and procedures.
 - [ ] Document corrective action plans for audit non-conformities.
+- [ ] Review and update ISO/IEC 27001 controls to reflect latest revision if applicable.
 
 ### California Consumer Privacy Act (CCPA)
 - [ ] Provide notice to consumers about data collection practices.
@@ -100,3 +108,4 @@
 ### NIST Cybersecurity Framework
 - [ ] Implement a risk management framework that includes identifying, protecting, detecting, responding, and recovering from incidents.
 - [ ] Regularly update and review security policies based on threat intelligence.
+- [ ] Add any new or updated regulations relevant to the industry or region, such as the EU Digital Operational Resilience Act (DORA).
