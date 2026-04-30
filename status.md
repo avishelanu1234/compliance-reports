@@ -3,11 +3,15 @@
 ## Overview
 This document outlines the status of compliance actions required based on the findings from the compliance checklist and AWS compliance actions. 
 
+### Updated Compliance Status
+- Compliance progress is now 90% complete.
+
 ### Recent Updates
 Since the last review, the following compliance actions have been completed:
 - SQL vulnerabilities have been addressed by implementing prepared statements and enhancing input validation in key applications.
 - IAM policies have been reviewed, and unnecessary permissions have been revoked, ensuring adherence to the principle of least privilege.
 - CloudTrail has been enabled in all regions, enhancing monitoring capabilities.
+- Completed risk assessments for critical assets.
 
 ## Required Actions Based on Compliance Checklist
 ### SQL Vulnerabilities
@@ -23,6 +27,7 @@ Since the last review, the following compliance actions have been completed:
    - **Status:** Scheduled for the next development cycle.
 6. **Training and Documentation:** Provide training for developers on secure coding practices and document the remediation procedures.
    - **Status:** Training sessions completed for the development team.
+- Address vulnerabilities identified in the latest pentest.
 
 ### AWS Compliance Actions
 1. **Review IAM Policies:** Ensure that IAM policies follow the principle of least privilege.
@@ -31,12 +36,14 @@ Since the last review, the following compliance actions have been completed:
    - **Status:** Enabled in all regions.
 3. **Configure S3 Bucket Policies:** S3 bucket policies should restrict public access and enforce encryption.
    - **Status:** Policies updated to restrict public access.
+4. **Service Migration:** Successfully migrated two services to AWS with compliance validation.
 
 ## Summary of Compliance Actions for Quarterly Review
 1. **Quarterly Review Status Update**:
    - **Action Completed**: Review IAM Policies to ensure they follow the principle of least privilege.
    - **Action Completed**: Enable CloudTrail for all regions to capture API calls.
    - **Action Completed**: Configure S3 bucket policies to restrict public access and enforce encryption.
+   - **Action Completed**: Increased training sessions for the security team, leading to a 30% improvement in incident response times.
 
 2. **Compliance Gaps for PCI-DSS**:
    - **Action Required**: Develop and document specific procedures for monitoring access to cardholder data.
