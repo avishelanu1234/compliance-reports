@@ -14,6 +14,8 @@ This policy applies to all cryptographic keys used for protecting cardholder dat
 - Automated audit trails shall be maintained for all key management activities and retained securely according to retention policies.
 - Integration with security monitoring and incident response systems shall be established to enable seamless workflows.
 - The system shall support cryptographic algorithms and key lengths that meet or exceed industry standards such as NIST recommendations (e.g., AES-256 for symmetric keys, RSA 2048+ or ECC P-256+ for asymmetric keys).
+- Implement advanced automated anomaly detection mechanisms, such as machine learning or behavioral analytics, to proactively identify and alert on suspicious or unauthorized key management activities.
+- Continuously refine automated detection models based on emerging threat intelligence and incident feedback.
 
 ### 2. Key Access Controls
 - Roles and responsibilities for key management shall be clearly defined with segregation of duties.
@@ -25,6 +27,8 @@ This policy applies to all cryptographic keys used for protecting cardholder dat
 - Keys shall be stored securely using hardware security modules (HSMs) or equivalent secure cryptographic devices wherever feasible.
 - Procedures for immediate key revocation shall be established for cases of compromise, personnel changes, or other security events.
 - Key management logs shall be retained securely for a minimum period of one year and archived according to organizational policies.
+- Conduct regular penetration testing or red team exercises focused on key management systems to validate the effectiveness of access controls, dual control mechanisms, and incident response procedures.
+- Establish a formal access certification (attestation) process where key custodians and managers review and confirm access rights at least quarterly, documenting approvals and remediation actions as needed.
 
 ### 3. Integration with Cloud and Third-Party Services
 - Key management policies shall be extended to cover all cloud service providers and third-party services handling cardholder data.
@@ -40,10 +44,14 @@ This policy applies to all cryptographic keys used for protecting cardholder dat
 - Audit frequency shall be at least annually or more frequently as required by regulatory or organizational needs.
 - Non-compliance shall be reported to senior management and remediated promptly.
 - Continuous compliance monitoring mechanisms shall be implemented where feasible.
+- Deploy automated compliance monitoring tools and dashboards to provide real-time visibility into key management compliance status and generate alerts for deviations.
+- Develop standardized procedures and templates for audit evidence collection, documentation, and reporting to streamline audit preparation and ensure consistency.
 
 ### 5. Training and Awareness
 - Personnel involved in key management shall receive role-specific regular training on this policy and associated procedures.
 - Training shall include secure key handling, use of automated systems, compliance requirements, and practical exercises for key management scenarios.
+- Incorporate simulated phishing and social engineering exercises targeting key custodians and personnel involved in key management to enhance awareness of targeted attack vectors.
+- Implement mechanisms to assess training effectiveness through quizzes, scenario-based exercises, and feedback surveys, and schedule regular refresher training sessions at least annually.
 
 ### 6. Roles and Responsibilities
 - Security Team: Implement and maintain automated key management systems, enforce access controls, monitor key management activities, and manage HSMs or equivalent devices.
@@ -63,6 +71,6 @@ This policy applies to all cryptographic keys used for protecting cardholder dat
 
 ---
 
-*Document Version: 2.0*  
+*Document Version: 2.1*  
 *Effective Date: [Insert Date]*  
 *Approved by: [Approving Authority]*
