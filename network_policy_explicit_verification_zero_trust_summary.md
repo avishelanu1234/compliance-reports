@@ -8,7 +8,13 @@ The network policy controls emphasize explicit verification by enforcing strict 
 
 ## Zero Trust Security Architecture
 
-The outlined practices embody the zero trust model by rejecting the assumption that any caller or network segment is inherently trusted. Instead, every access request is subject to scrutiny through rigorous verification controls. Incident response plans and user education ensure preparedness to respond to potential threats and maintain security awareness. Best practices around secrets management minimize the risk of credential compromise, which is critical for maintaining trust boundaries.
+The outlined practices embody the zero trust model by rejecting the assumption that any caller or network segment is inherently trusted. Instead, every access request is subject to scrutiny through rigorous verification controls. 
+
+Incident response plans play a critical role in zero trust by enabling rapid detection, containment, and remediation of security incidents, thus maintaining trust boundaries and minimizing potential damage. 
+
+User education is essential to foster a security-aware culture, ensuring that personnel understand the importance of zero trust principles and their role in maintaining strict access controls and monitoring.
+
+Best practices around secrets management minimize the risk of credential compromise, which is critical for maintaining trust boundaries.
 
 ## Conclusion
 
