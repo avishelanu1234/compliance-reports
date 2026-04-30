@@ -1,14 +1,15 @@
 # Action Plan for PII Protection and Data-Residency Compliance Improvements
 
 ## 1. Data Handling and Documentation
-- [ ] Define and document clear data handling procedures for Personally Identifiable Information (PII).
-- [ ] Ensure data processing agreements are in place with all third-party vendors.
-- [ ] Conduct Data Protection Impact Assessments (DPIAs) for all high-risk processing activities.
-- [ ] Implement processes to handle data subject requests such as access, rectification, and erasure.
-- [ ] Maintain transparency in data processing activities and document data residency requirements.
-- [ ] Review and minimize collection and retention of PII to what is necessary for business purposes.
-- [ ] Validate actual data residency to ensure PII is stored and processed only in approved geographic locations.
-- [ ] Expand vendor risk management to include periodic security assessments and contract reviews.
+- [ ] Define clear and comprehensive data handling procedures for Personally Identifiable Information (PII), specifying how PII is collected, processed, stored, and shared within the organization to ensure consistent and compliant management.
+- [ ] Thoroughly document data handling procedures as a formal reference guide for employees and relevant stakeholders.
+- [ ] Explicitly include data residency requirements in documentation, detailing approved geographic locations where PII may be stored and processed to meet jurisdiction-specific regulations.
+- [ ] Ensure data processing agreements are in place with all third-party vendors handling PII to establish accountability and compliance.
+- [ ] Conduct Data Protection Impact Assessments (DPIAs) for all high-risk processing activities to identify and mitigate privacy risks.
+- [ ] Implement and maintain processes to handle data subject requests such as access, rectification, and erasure in accordance with applicable privacy laws.
+- [ ] Maintain transparency in all data processing activities and regularly review and minimize the collection and retention of PII to only what is necessary for legitimate business purposes.
+- [ ] Validate actual data residency periodically to ensure PII is stored and processed exclusively within approved geographic locations.
+- [ ] Expand vendor risk management to include periodic security assessments and contract reviews focused on PII handling and data residency compliance.
 
 ## 2. Breach Notification and Incident Response
 - [ ] Implement comprehensive breach notification procedures in compliance with GDPR and HIPAA.
