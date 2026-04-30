@@ -22,6 +22,12 @@
 ## 7. User Education
 - **Awareness Training**: Educate users and developers about security best practices, including risks associated with IP address management and monitoring.
 
+## 8. Addressing Hardcoded Passwords and Sensitive Credentials
+- **Environment Variables Usage**: Load credentials and sensitive information from environment variables instead of hardcoding them in the source code.
+- **Avoid Hardcoding Secrets**: Never embed passwords, API keys, or other secrets directly in the source code to prevent accidental exposure.
+- **Regular Secrets Scanning**: Conduct thorough and regular secrets detection scans across the codebase to identify any hardcoded sensitive information.
+- **Immediate Secret Rotation**: If any secrets are found to be exposed, rotate them immediately to mitigate potential risks.
+
 ---
 
 **Document Prepared By**: Compliance Team  
