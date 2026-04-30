@@ -2,8 +2,23 @@
 
 This checklist outlines essential PCI-DSS version 4.0 requirements to help ensure compliance and identify any gaps in cardholder data security.
 
+---
+
+## Version History
+- **v1.0** - Initial checklist aligned with PCI-DSS version 4.0, including core requirements and additional recommendations. (Date: 2024-06-09)
+
+---
+
+## References
+- [PCI Security Standards Council - Official Site](https://www.pcisecuritystandards.org/)
+- [PCI-DSS Version 4.0 Standard](https://docs.cisecurity.org/PCI_DSS_v4-0.pdf)
+- [PCI SSC Quick Reference Guide](https://www.pcisecuritystandards.org/documents/PCI_DSS-QRG-v4_0.pdf)
+- [Key Management Guidelines](https://www.pcisecuritystandards.org/documents/Key_Management_Guidelines.pdf)
+
+---
+
 ## Build and Maintain a Secure Network and Systems
-- [ ] Install and maintain a firewall configuration to protect cardholder data, with documented and regularly reviewed rules tailored to business needs.
+- [ ] Install and maintain a firewall configuration to protect cardholder data, with documented and regularly reviewed rules tailored to business needs. See [Firewall Configuration Examples](https://www.pcisecuritystandards.org/documents/Firewall_Examples.pdf).
 - [ ] Do not use vendor-supplied defaults for system passwords and other security parameters; enforce strong password complexity and rotation policies.
 - [ ] Implement network segmentation and isolate cardholder data environment (CDE) to minimize scope.
 - [ ] Maintain an inventory of system components in scope for PCI-DSS.
@@ -13,11 +28,18 @@ This checklist outlines essential PCI-DSS version 4.0 requirements to help ensur
 ## Protect Cardholder Data
 - [ ] Protect stored cardholder data through strong encryption or other approved cryptographic methods.
 - [ ] Encrypt transmission of cardholder data across open, public networks using strong protocols (e.g., TLS 1.2 or higher).
-- [ ] Implement secure key management, including key rotation and dual control.
+- [ ] Implement secure key management, including key rotation and dual control. See example below.
 - [ ] Ensure secure deletion and disposal of cardholder data and cryptographic keys when no longer needed.
 - [ ] Use cryptographic protocols with strong algorithms and key lengths approved by PCI SSC.
 - [ ] Validate key management processes including key generation, distribution, storage, and destruction.
 - [ ] Conduct quarterly reviews of stored cardholder data to identify and securely remove unnecessary data.
+
+### Example: Key Management Procedure
+1. Keys must be generated using approved cryptographic methods.
+2. Key storage should be encrypted and access restricted.
+3. Keys must be rotated annually or upon suspicion of compromise.
+4. Dual control and split knowledge should be enforced for key access.
+5. Secure key destruction procedures must be documented and followed.
 
 ## Maintain a Vulnerability Management Program
 - [ ] Use and regularly update anti-virus and anti-malware software.
@@ -29,7 +51,7 @@ This checklist outlines essential PCI-DSS version 4.0 requirements to help ensur
 - [ ] Conduct penetration testing on segmentation controls annually or after any significant change.
 
 ## Implement Strong Access Control Measures
-- [ ] Restrict access to cardholder data and systems based on business need-to-know, with documented access policies.
+- [ ] Restrict access to cardholder data and systems based on business need-to-know, with documented access policies. See example below.
 - [ ] Assign unique IDs to all users with system access.
 - [ ] Implement multi-factor authentication (MFA) for all access to the CDE and administrative access.
 - [ ] Enforce least privilege principles and regularly review access rights.
@@ -37,6 +59,12 @@ This checklist outlines essential PCI-DSS version 4.0 requirements to help ensur
 - [ ] Log all access to cardholder data and systems with sufficient detail to reconstruct events.
 - [ ] Review access logs and user accounts monthly and upon role changes or terminations.
 - [ ] Enforce multi-factor authentication for all non-console administrative access.
+
+### Example: Access Control Policy
+1. Access to cardholder data is granted only to employees with a legitimate business need.
+2. Access rights are reviewed quarterly and adjusted based on role changes.
+3. Multi-factor authentication is mandatory for all remote and administrative access.
+4. Physical access to sensitive areas is controlled and logged.
 
 ## Regularly Monitor and Test Networks
 - [ ] Track and log all access to network resources and cardholder data.
@@ -49,11 +77,18 @@ This checklist outlines essential PCI-DSS version 4.0 requirements to help ensur
 
 ## Maintain an Information Security Policy
 - [ ] Maintain a comprehensive information security policy addressing all PCI-DSS requirements.
-- [ ] Include incident response, data breach notification, and communication plans.
+- [ ] Include incident response, data breach notification, and communication plans. See example below.
 - [ ] Review and update policies and procedures at least annually or upon significant changes.
 - [ ] Ensure policies are reviewed and approved by senior management annually.
 - [ ] Include data retention and disposal policies aligned with PCI-DSS requirements.
 - [ ] Provide role-based security training and awareness at least annually.
+
+### Example: Incident Response Plan Summary
+1. Identify and contain the incident immediately.
+2. Notify the incident response team and relevant stakeholders.
+3. Collect and preserve forensic evidence.
+4. Eradicate the cause of the incident and recover systems.
+5. Conduct a post-incident review and update policies accordingly.
 
 ## Additional Recommendations
 - [ ] Conduct regular PCI-DSS self-assessments and external audits.
