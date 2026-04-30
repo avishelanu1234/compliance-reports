@@ -7,6 +7,7 @@
 - Enable CloudTrail for all regions to capture API calls.
 - Configure S3 bucket policies to restrict public access and enforce encryption.
 - Increased training sessions for the security team, leading to a 30% improvement in incident response times.
+- Finalized vulnerability assessments
 
 ### Compliance Gaps and Required Actions
 
@@ -40,8 +41,14 @@
 - Implement a secure secret management process for handling sensitive information.
 - Conduct a review of existing code to identify and replace hardcoded credentials.
 
+#### New Compliance Gaps
+- Pending remediation for 3 critical findings
+
+### Required Actions
+- Implement fixes for the identified vulnerabilities
+
 ## Conclusion
-The above actions reflect the current compliance status and necessary steps for remediation as part of the quarterly review. Progress has been made in various areas, especially regarding AWS compliance actions, while several issues still require attention to ensure full compliance with PCI-DSS, GDPR, and other relevant regulations.
+Current compliance status remains at 85% with ongoing remediation efforts.
 
 ---
 *Prepared by: Security Program Manager*
