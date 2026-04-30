@@ -90,8 +90,69 @@ This policy applies to all cryptographic keys used for protecting cardholder dat
 - A key escrow policy shall be defined if applicable, detailing conditions and controls for escrow access.
 - Cryptoperiods (maximum lifespan of keys) shall be defined and enforced in alignment with industry standards and organizational risk tolerance.
 
+## 9. Incident Response for Key Management
+
+- Establish detailed procedures for responding to key compromise incidents including:
+  - Immediate containment and isolation of affected keys.
+  - Forensic analysis to determine the scope and cause of the compromise.
+  - Prompt key revocation and secure destruction of compromised keys.
+  - Re-issuance of new cryptographic keys following secure generation standards.
+  - Timely communication to internal stakeholders, senior management, and external regulators or customers as required.
+- Define roles and responsibilities for incident response team members during key compromise events.
+- Specify incident response timelines and escalation protocols to ensure rapid and effective remediation.
+
+## 10. Cryptoperiod Enforcement
+
+- Define maximum cryptoperiods for cryptographic keys in accordance with industry standards such as NIST SP 800-57:
+  - Symmetric keys (e.g., AES): maximum lifespan of 1 year.
+  - Asymmetric keys (e.g., RSA/ECC): maximum lifespan of 2-3 years depending on key length and usage.
+- Implement automated systems to monitor key lifespans and generate alerts for upcoming expirations.
+- Enforce mandatory key rotation or destruction upon cryptoperiod expiration.
+- Conduct periodic reviews of cryptoperiod policies to adapt to changes in threat landscape or cryptographic recommendations.
+
+## 11. Key Escrow Policy
+
+- Define authorized escrow holders and restrict access to escrowed keys through strict access controls and dual control mechanisms.
+- Establish formal approval workflows for escrow key access, requiring multiple independent approvals prior to use.
+- Maintain comprehensive logs and audit trails for all escrow key activities.
+- Store escrowed keys securely using hardware security modules (HSMs) or equivalent secure devices.
+- Review and update escrow policies regularly to reflect organizational and regulatory requirements.
+
+## 12. Cloud Key Management Technologies
+
+- Approve cloud-native key management services (e.g., AWS KMS, Azure Key Vault, Google Cloud KMS) that comply with PCI-DSS and organizational security requirements.
+- Configure cloud KMS with strong access controls, encryption in transit and at rest, and integration with centralized monitoring.
+- Require regular security assessments and configuration reviews of cloud key management services.
+- Stay informed of updates and new features from cloud providers to maintain compliance and enhance security posture.
+
+## 13. Continuous Monitoring Technologies
+
+- Utilize automated compliance monitoring tools and anomaly detection systems capable of real-time alerting and comprehensive audit trail analysis.
+- Integrate monitoring dashboards with incident response workflows to enable rapid investigation and mitigation.
+- Regularly evaluate and update monitoring technologies to address emerging threats and evolving compliance requirements.
+- Document all monitoring configurations and changes as part of audit evidence.
+
+## 14. Exception Management
+
+- Implement a formal exception request process including:
+  - Detailed documentation of the exception rationale, scope, and duration.
+  - Risk assessment and identification of compensating controls.
+  - Approval by designated senior management or compliance authority.
+- Limit exception durations with mandatory periodic reviews and re-approvals.
+- Maintain a centralized exception register for tracking and audit purposes.
+
+## 15. Incident Access Elevation Controls
+
+- Define controlled procedures for temporary elevation of key management access during incidents, including:
+  - Pre-approved workflows with multi-level authorization.
+  - Strict time limits on elevated access duration.
+  - Comprehensive activity logging during elevated access periods.
+  - Automated revocation of elevated access immediately after incident resolution.
+- Conduct post-incident reviews of access logs and implement remediation as needed.
+- Provide training to incident response and key management personnel on access elevation protocols.
+
 ---
 
-*Document Version: 2.1*  
+*Document Version: 2.2*  
 *Effective Date: [Insert Date]*  
 *Approved by: [Approving Authority]*
