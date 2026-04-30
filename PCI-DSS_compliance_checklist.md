@@ -5,7 +5,7 @@ This checklist outlines essential PCI-DSS version 4.0 requirements to help ensur
 ---
 
 ## Version History
-- **v1.0** - Initial checklist aligned with PCI-DSS version 4.0, including core requirements and additional recommendations. (Date: 2024-06-09)
+- **v1.1** - Updated checklist with enhancements for automation, cloud security, emerging threats, metrics, integrated risk management, privacy alignment, and audit evidence management. (Date: 2024-06-12)
 
 ---
 
