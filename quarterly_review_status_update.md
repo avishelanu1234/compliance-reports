@@ -11,8 +11,8 @@
 - Completed training sessions for developers on secure coding practices and documented remediation procedures.
 
 ### Current Status
-- Most remediation steps are completed or actively in progress.
-- Immediate attention required to complete testing and validation phases.
+- All remediation steps have been completed successfully with a timeline of 3 months.
+- New action items include conducting regular audits every quarter and training sessions for relevant teams on best practices for data management.
 
 ## 2. Sensitive Data Management Practices
 
@@ -25,6 +25,7 @@
 
 ### Current Status
 - Action items have been outlined and are actively being addressed.
+- New action items include conducting regular audits every quarter and training sessions for relevant teams on best practices for data management.
 
 ---
 
