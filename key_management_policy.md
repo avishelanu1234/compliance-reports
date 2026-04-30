@@ -30,6 +30,14 @@ This policy applies to all cryptographic keys used for protecting cardholder dat
 - Conduct regular penetration testing or red team exercises focused on key management systems to validate the effectiveness of access controls, dual control mechanisms, and incident response procedures.
 - Establish a formal access certification (attestation) process where key custodians and managers review and confirm access rights at least quarterly, documenting approvals and remediation actions as needed.
 
+#### Enhanced Controls for Key Access
+- Define granular role-based permissions with least privilege principles to ensure each role has only the necessary access rights for their responsibilities.
+- Implement just-in-time (JIT) access controls for sensitive key management functions, granting temporary, time-limited permissions that automatically expire after use.
+- Establish strict governance and periodic review (at least quarterly) of all service accounts and automation credentials used by the key management system, including validation of their necessity and scope.
+- Require the use of Privileged Access Workstations (PAW) or similarly secured environments for all users accessing key management systems to reduce exposure to advanced threats such as malware or phishing.
+- Implement automated enforcement mechanisms that can revoke access immediately upon detection of suspicious or anomalous key management activities.
+- Document and manage any exceptions to dual control or access review requirements with strong justification, senior management approval, and compensating controls to mitigate risk.
+
 ### 3. Integration with Cloud and Third-Party Services
 - Key management policies shall be extended to cover all cloud service providers and third-party services handling cardholder data.
 - PCI-DSS key management requirements shall be incorporated into contractual agreements and service-level agreements (SLAs) with cloud and third-party providers.
@@ -39,6 +47,13 @@ This policy applies to all cryptographic keys used for protecting cardholder dat
 - Events related to cloud key management shall be integrated into centralized monitoring and alerting systems.
 - Incident response plans shall include detailed procedures specific to key management incidents in cloud environments.
 
+#### Enhanced Cloud and Third-Party Access Controls
+- Enforce least privilege and segmentation principles within cloud environments and third-party services by:
+  - Limiting API permissions and service roles to only necessary scopes.
+  - Applying network segmentation and access controls to isolate key management functions.
+  - Conducting regular reviews and audits of third-party access and permissions.
+- Integrate cloud and third-party access logs with centralized monitoring and anomaly detection systems for real-time alerting and response.
+
 ### 4. Compliance and Audit
 - Compliance with this policy shall be verified through regular internal and independent audits.
 - Audit frequency shall be at least annually or more frequently as required by regulatory or organizational needs.
@@ -46,6 +61,11 @@ This policy applies to all cryptographic keys used for protecting cardholder dat
 - Continuous compliance monitoring mechanisms shall be implemented where feasible.
 - Deploy automated compliance monitoring tools and dashboards to provide real-time visibility into key management compliance status and generate alerts for deviations.
 - Develop standardized procedures and templates for audit evidence collection, documentation, and reporting to streamline audit preparation and ensure consistency.
+
+#### Enhanced Compliance and Audit Controls
+- Automate the access certification and recertification processes where feasible to improve accuracy and reduce human error.
+- Require documented evidence for all access changes, including justifications, approvals, and audit trails.
+- Include service accounts and automation credentials in compliance monitoring and audits.
 
 ### 5. Training and Awareness
 - Personnel involved in key management shall receive role-specific regular training on this policy and associated procedures.
@@ -58,6 +78,7 @@ This policy applies to all cryptographic keys used for protecting cardholder dat
 - Compliance Team: Ensure policy alignment with PCI-DSS requirements, coordinate audits, and monitor compliance.
 - Cloud Services Team: Manage integration and compliance of cloud key management services, conduct regular assessments.
 - Key Custodian: Responsible for day-to-day key handling, secure storage, and revocation processes.
+- Incident Response Team: Establish controlled, auditable processes for temporary elevation of key management access during incidents.
 - All Employees: Adhere to key management policies and report any security incidents promptly.
 
 ### 7. Review and Updates
