@@ -20,5 +20,11 @@ This report consolidates the compliance gaps identified in vendor risk assessmen
 ## Due Date
 - November 30, 2023
 
+## Current Status and Follow-up
+- The incident response report consolidating the status of issues labeled ir-active has been completed and documented.
+- Both issues #118 and #131 have been closed as completed.
+- Follow-up requests have been made for updates on the current status of assessments, progress, challenges, assignment of responsible team members, and any revised deadlines.
+- A review meeting is proposed to discuss findings and plan further actions to ensure ongoing compliance.
+
 ---
-This report is based on issues #118 and #131 in the compliance-reports repository, which address the vendor risk assessment compliance gaps.
+This report is based on issues #118 and #131 in the compliance-reports repository, which addressed the vendor risk assessment compliance gaps.
