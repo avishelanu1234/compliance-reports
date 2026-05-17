@@ -1,0 +1,4 @@
+# Basic dependencies
+requests
+flask
+numpy
