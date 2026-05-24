@@ -7,6 +7,11 @@ cardholder_data:
   key_rotation_policy: every_12_months
   data_classification: sensitive
   access_control: strict
+  multi_factor_authentication: required
+  adaptive_access_controls: enabled
+  microsegmentation_zones:
+    - zone1: trusted
+    - zone2: restricted
   logging: enabled
   data_handling: comply_with_GDPR
 
@@ -15,3 +20,5 @@ audit_logging:
   retention_days: 365
   tamper_evident: true
   alerting: enabled
+  real_time_monitoring: enabled
+  automated_response: enabled
