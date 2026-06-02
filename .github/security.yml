@@ -3,3 +3,7 @@
 # Enable GitHub Advanced Security for this repository.
 
 # This file is used to configure security features such as secret scanning and dependency reviews.
+
+# Enable secret scanning
+secret_scanning:
+  enabled: true
