@@ -1,0 +1,16 @@
+name: Enable Advanced Security
+
+on:
+  push:
+    branches:
+      - fix-416
+
+jobs:
+  enable-security:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Enable GitHub Advanced Security
+        uses: github/security-action@v1
+        with:
+          token: ${{ github.token }}
+          enable: true
