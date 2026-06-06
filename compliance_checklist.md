@@ -41,6 +41,11 @@
 - [ ] Regular Security Audits: Conduct regular assessments focused on SQL injection vulnerabilities.
 - [ ] Update Training Materials: Provide training on secure coding practices related to SQL handling.
 
+## Authentication Security Enhancements
+- [ ] Implement Strong Password Policies: Require a mix of characters, numbers, and symbols for user passwords.
+- [ ] Enforce Multi-Factor Authentication (MFA): Require MFA for all users during login to enhance security.
+- [ ] Introduce Account Lockout Mechanisms: Lock accounts after a specified number of failed login attempts.
+
 ## AWS Compliance Actions
 - [ ] Review IAM Policies - Ensure that IAM policies follow the principle of least privilege.
 - [ ] Enable CloudTrail - CloudTrail should be enabled for all regions to capture API calls.
