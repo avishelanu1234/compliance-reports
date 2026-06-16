@@ -1,0 +1,1 @@
+## Zero Trust Policy\n\nThis document outlines the Zero Trust security model implementation for compliance.
